@@ -438,6 +438,11 @@ msgstr ""
 msgid "Enable updates for qubes without known available updates"
 msgstr ""
 
+#SCURR:
+#: qui/updater.glade:101
+msgid "Select all"
+msgstr ""
+
 #: qui/updater.glade:116
 msgid "Qube list"
 msgstr ""

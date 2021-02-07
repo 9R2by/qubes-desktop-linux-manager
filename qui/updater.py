@@ -55,6 +55,11 @@ class QubesUpdater(Gtk.Application):
         self.allow_update_unavailable_check.connect("clicked",
                                                     self.set_update_available)
 
+        self.select_all_vms_check = \
+            self.builder.get_object("select_all_vms") #how to only show this glade thing if allow_update_unavaiable clicked
+        self.select_all_vms_check("clicked",  #TODO: if selected change all to clicked!
+                                                    self.set_update_available)
+
         self.next_button = self.builder.get_object("button_next")
         self.next_button.connect("clicked", self.next_clicked)
 
