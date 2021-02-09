@@ -438,7 +438,7 @@ msgstr ""
 msgid "Enable updates for qubes without known available updates"
 msgstr ""
 
-#SCURR:
+#need to change line number accordingly 
 #: qui/updater.glade:101
 msgid "Select all"
 msgstr ""
